@@ -1,0 +1,237 @@
+body{font-family: 'EB Garamond', serif;}
+a{
+    text-decoration: none;
+}
+header{
+    height:800px;
+    background: url('../pic/25.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: -2%;
+    
+}
+.home{
+    color:#06574b;
+    font-size:35px;
+    margin-left:7%;
+    display: inline-flex;
+    padding-top:2%;
+    float:left;
+}
+.home>span{
+    color:#07a90d;
+}
+.menu{
+    display: flex;
+    float: right;
+    font-size:30px;
+    margin-right:5%;
+    list-style: none;
+}
+.menu>li>a{
+    padding-right:20px;
+    color:#359539;
+    font-size:22px;
+}
+.menu>li>a:hover{
+    color:#f9bb13;
+}
+.add{
+    color:#598016;
+    padding-top:145px;
+    text-align: right;
+    padding-right:19%;
+    padding-top:30%;
+    padding-bottom: 0;
+    margin-bottom: -14px;
+    font-family: 'Dancing Script', cursive;
+    }
+h1{
+    color:#2c400a;
+    width: 87%;
+    margin: auto;
+    font-family: normal;
+    text-align: right;
+    margin-top: 0;
+    padding-top: 0;
+}
+.join,
+.read{
+    width: 95px;
+    height: 30px;
+    border-radius: 16px;
+    background-color: #1d2c04;
+    color: white;
+    border: none;
+    margin-left: 7%;
+}
+.join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;
+    float: right;
+}
+h2{
+    text-align: center;
+    color: #359539;
+    margin-top: 50px;
+    font-family:normal;
+}
+#coaches{position: relative;}
+#coaches:after{
+    content:"";
+    display: block;
+    position: absolute;
+    top: 32px;
+    left: 48%;
+    width: 50px;
+    border-bottom: 2px solid #359539;
+}
+.weman{
+    display: grid;
+    grid-gap:100px;
+    justify-content:space-evenly;
+    grid-template-columns:470px 470px;
+    width: 80%;
+    height:460px;
+    margin:auto;
+}
+figcaption{
+    text-align: center;
+    padding-top:15px;
+    color:#e5665a;
+    font-family: 'Dancing Script', cursive;
+}
+.one>img,
+.two>img
+{
+   width: 300px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+.nahla{
+    box-shadow: 0px 7px 10px -5px rgba(0,0,0,0.2);
+    padding: 5px;
+}
+.classes{
+    background:url('../pic/24.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.times{
+    width:80%;
+    height:765px;
+    color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    align-content:center;
+}
+.row{
+    width:175px;
+    height:144px;
+}
+.day{
+    width:144px;
+    height:50px;
+    background-color:rgba(255,255,255,0.7);
+}
+.time-1{background-color:rgba(255,255,255,0.9);}
+.time-2{background-color:rgba(255,255,255,0.4);}
+.flow{background-color:#70d0d0}
+.kund{background-color:#f2dc99}
+.loss{background-color:#eec824}
+.fit{background-color:#92b473}
+.hatha{background-color:#38f5b6}
+.our-class{
+    display: grid;
+    grid-template-columns: repeat(3, 339px);
+    grid-gap: 30px;
+    width: 80%;
+    margin: auto;
+}
+.our-class>figure>img{
+    width: 295px;
+    height:250px;
+}
+.why{
+    text-align: center;
+}
+.why>h2{font-size:40px;}
+.yoga{
+    color:#7a8080;
+    width:52%;
+    margin: auto;
+    font-size:22px;
+}
+.why>ul{
+    text-align: start;
+    width:34%;
+    margin:auto;
+    color:#69ca08;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.read{
+    margin: auto;
+    margin-top:30px;
+}
+#subscribe{
+    background:url(../pic/24.jpg);
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#subscribe>h3{
+    color: #359539;
+    padding-top:5%;
+    font-size: 24px;
+}
+#subscribe>p{
+    color:#434343;
+    font-family: 'Dancing Script', cursive;
+}
+#subscribe>input{
+    width: 30%;
+    height: 35px;
+}
+#subscribe>button{
+    height: 39px;
+    width: 90px;
+    background: #bfe402;
+    border: none;
+    color: #434343;
+}
+.fab{
+    color: white;
+}
+.fab:hover{color: darkgreen}
+footer{
+    background:#98c301;
+    color:white;
+    height:25px;
+}
+footer>p{
+    margin-top:0;
+    text-align:left;
+    padding-left:40px;
+    padding-top: 5px;
+    display:inline-block;
+}
+#contact{
+    float:right;
+    display:inline-block;
+    padding-right:60px;
+    padding-top: 6px;
+}
+footer>div>a{
+    padding-right: 5px;
+}
